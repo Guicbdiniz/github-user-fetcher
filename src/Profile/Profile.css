@@ -1,0 +1,43 @@
+.profile {
+	max-height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.profileData {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 2em;
+}
+
+img {
+	height: 150px;
+}
+
+.propertyName {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+.propertyValue {
+	margin: 0;
+	font-size: small;
+}
+
+.profileRepos {
+	border-left: 1px solid;
+	padding-left: 2em;
+	font-size: small;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.repo {
+	margin: 1em;
+}
+
+.repoPropertyName {
+	font-weight: bold;
+}
