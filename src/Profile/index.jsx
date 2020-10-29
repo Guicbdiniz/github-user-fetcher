@@ -1,6 +1,9 @@
 import React from 'react'
 import './Profile.css'
 
+/**
+ * GitHub profile component.
+ */
 export default function Profile({ userData, userRepos }) {
 	const { avatar_url, name, bio } = userData
 

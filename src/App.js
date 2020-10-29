@@ -2,7 +2,10 @@ import { useState } from 'react'
 import './App.css'
 import Profile from './Profile'
 
-function App() {
+/**
+ * App main component.
+ */
+export default function App() {
 	const [userName, setUserName] = useState('')
 	const [errorText, setErrorText] = useState('')
 	const [hasErrors, setHasErrors] = useState(false)
@@ -89,5 +92,3 @@ function App() {
 		</div>
 	)
 }
-
-export default App
